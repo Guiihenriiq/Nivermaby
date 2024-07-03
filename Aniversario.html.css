@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:red;
+    
+    
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #000000;
+}
+
+header {
+    margin-bottom: 20px;
+    margin-bottom: center;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #cc3232;
+}
+
+#flowers {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#flowers img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#card {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #cc323223;
+    border: 1px solid #cc3636;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1); 
+}
+
+.felix{
+    color: #cc3232;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1); 
+
+}
+
+
+/* Estilos para o buquê de flores */
+#bouquet {
+    display: none;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#bouquet img {
+    max-width: 100%;
+}
+
+.hidden {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.visible {
+    opacity: 1;
+}
